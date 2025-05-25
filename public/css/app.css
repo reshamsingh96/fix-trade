@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_Light.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_SemiBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../fonts/Inter_Bold.ttf) format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+
+html,
+body,
+.v-application {
+    font-family: Inter, sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(var(--v-theme-primary));
+}
+
+.my-container {
+    max-width: 1400px !important
+}
+
+.v-toolbar-title {
+    font-family: Inter, sans-serif !important;
+    font-weight: 500 !important
+}
+
+.leftSidebarcustom-navbar {
+    background-color: #0b111b !important;
+}
+
+.auth-page {
+    height: 100%;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 30.75rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 2.5rem !important;
+}
+
+.register-auth-card {
+    max-width: 40rem !important;
+}
+
+.avatar-img-cover img {
+    object-fit: cover !important;
+}
+
+
+.dash-card-detail {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.dash-card .dash-ic {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f421;
+    border-radius: 100px;
+    margin-left: auto;
+}
+ 
+.dash-card2 {
+    padding: 15px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.dash-card2 .dash-ic {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f421;
+    border-radius: 100px;
+}
+
+.dash-card2 .dash-info {
+    margin-left: 15px !important;
+}
+
+
+.text-black {
+    color: #000 !important;
+}
+
+.text-grey {
+    color: #595959 !important;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.article-sub-section {
+    padding-left: 30px;
+}

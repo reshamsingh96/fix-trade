@@ -1,0 +1,18 @@
+/* Extra small devices (phones, 0px to 599px) */
+@media (max-width: 599px) {
+    .my-header .logo-container img {
+        width: 70px;
+    }
+}
+
+/* Small devices (tablets, 600px to 959px) */
+@media (min-width: 600px) and (max-width: 959px) {}
+
+/* Medium devices (small desktops, 960px to 1279px) */
+@media (min-width: 960px) and (max-width: 1279px) {}
+
+/* Large devices (desktops, 1280px to 1919px) */
+@media (min-width: 1280px) and (max-width: 1919px) {}
+
+/* Extra large devices (large screens, 1920px and up) */
+@media (min-width: 1920px) {}
