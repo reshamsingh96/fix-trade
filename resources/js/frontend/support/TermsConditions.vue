@@ -126,7 +126,7 @@
               (subject to burden) of any of the foregoing (in each case whether
               registered or otherwise and includes applications for the grant of
               any of the foregoing and the right to apply for any of the
-              foregoing in any part of the world).
+              foregoing in any part of the world). 
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
