@@ -6,7 +6,7 @@
       <AboutSection />
       <TopCategories />
       <Teams />
-      <FeaturesProducts />
+      <!-- <FeaturesProducts /> -->
     </v-main>
     <CtaSection />
     <Footer/>

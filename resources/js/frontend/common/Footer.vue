@@ -6,7 +6,7 @@
           <v-col cols="12" sm="6" md="4">
             <div class="footer-brand">
               <p class="section-text">
-                Anaaj Culture is your trusted platform for finding best products
+                Home Service is your trusted platform for finding best products
                 for you. Its help to sell or buy your products.
               </p>
 
@@ -20,10 +20,10 @@
                 </li>
 
                 <li>
-                  <a href="mailto:anaaj.culture@gmail.com" class="contact-link">
+                  <a href="mailto:singhresham393@gmail.com" class="contact-link">
                     <MailIcon size="20" stroke-width="1.3" />
 
-                    <span>anaaj.culture@gmail.com</span>
+                    <span>singhresham393@gmail.com</span>
                   </a>
                 </li>
               </ul>

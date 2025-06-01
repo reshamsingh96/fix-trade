@@ -2,7 +2,7 @@
   <div class="auth-page">
     <v-container class="fill-height align-center justify-center">
       <v-card class="auth-card register-auth-card" elevation="10">
-        <v-img class="mx-auto" max-width="100" src="/images/logo.png"></v-img>
+        <v-img class="mx-auto" max-width="100" src="/images/logo.jpg"></v-img>
 
         <div class="text-center mb-5 mt-3">
           <h3 class="text-h3">Create New Account</h3>

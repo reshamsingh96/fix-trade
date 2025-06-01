@@ -1,26 +1,22 @@
 import { ability } from '../../ability.js';
 
 const state = {
-    user:null,
+    user: null,
 };
 
 const getters = {};
 
 const actions = {
-    setPermissions (context, permissions) {
+    setPermissions(context, permissions) {
         const rules = permissions.map((p) => {
-            let name = p.name.split("_");
-            return {
-                action: name[0],
-                subject: name[1],
-            };
+            return { action: p.action, subject: p.slug };
         });
-        // console.log(JSON.stringify(rules));
+        console.log(JSON.stringify(rules));
         ability.update(rules);
     },
     setUser({ commit }, user) {
         commit("SET_USER", user);
-      },
+    },
 };
 
 const mutations = {

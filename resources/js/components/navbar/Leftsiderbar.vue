@@ -11,12 +11,12 @@
       <v-img
         class="mx-auto mt-4"
         max-width="50"
-        src="/images/logo.png"
+        src="/images/logo.jpg"
         width="50"
         height="50"
       ></v-img>
       <v-card-title class="text-center text-white pa-0"
-        >Anaaj Culture</v-card-title
+        >Home Service</v-card-title
       >
     </div>
 

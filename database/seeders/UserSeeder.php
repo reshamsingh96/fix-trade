@@ -38,6 +38,7 @@ class UserSeeder extends Seeder
                 "image_url" => '',
                 "password" => 'qwerty123',
                 "ip_address" => '',
+                "user_name"=> "resham96",
                 "phone_verified_at" => now()->format('Y-m-d H:i:s'),
                 'email_verified_at' => now()->format('Y-m-d H:i:s'),
                 'date_of_birth' => '1996-02-15',
@@ -59,6 +60,7 @@ class UserSeeder extends Seeder
                 'email_verified_at' => now()->format('Y-m-d H:i:s'),
                 'date_of_birth' => '1990-01-01',
                 'anniversary_date' => '2015-01-01',
+                "user_name"=> "ramesh94",
                 "roles" => [RoleConst::SLUG_ADMIN],
             ],
             [
@@ -76,6 +78,7 @@ class UserSeeder extends Seeder
                 'email_verified_at' => now()->format('Y-m-d H:i:s'),
                 'date_of_birth' => '1990-01-01',
                 'anniversary_date' => '2015-01-01',
+                "user_name"=> "user01",
                 "roles" => [RoleConst::SLUG_USER],
             ],
             [
@@ -93,6 +96,7 @@ class UserSeeder extends Seeder
                 'email_verified_at' => now()->format('Y-m-d H:i:s'),
                 'date_of_birth' => '1990-01-01',
                 'anniversary_date' => '2015-01-01',
+                "user_name"=> "provider01",
                 "roles" => [RoleConst::SLUG_SERVICE_PROVIDER],
             ],
         ];
@@ -158,10 +162,10 @@ class UserSeeder extends Seeder
         # Add setting in info 
         $user_id = User::where('email', 'singhresham393@gmail.com')->pluck('uuid')->first();
         $setting_list = [
-            ["key" => "company_name", "value" => "Fix Trade", "created_by" => $user_id],
+            ["key" => "company_name", "value" => "Home Service", "created_by" => $user_id],
             ["key" => "phone", "value" => "9876919758", "created_by" => $user_id],
             ["key" => "address", "value" => "Dodan Wali, Sri Muktsar Sahib, Punjab, India, 152026", "created_by" => $user_id],
-            ["key" => "company_logo", "value" => asset('images\logo\logo.png'), "created_by" => $user_id],
+            ["key" => "company_logo", "value" => asset('images\logo\logo.jpg'), "created_by" => $user_id],
             ["key" => "email_color", "value" => "#7367f0", "created_by" => $user_id],
         ];
         foreach ($setting_list as $setting) {

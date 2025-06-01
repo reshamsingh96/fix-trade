@@ -24,10 +24,10 @@
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              ANAAJ CULTURE an application maintains this website (<a
-                href="https://www.anaaj.culture.in"
-                >www.anaaj.culture.in</a
-              >) and mobile apps – Anaaj Culture on Google Android Playstore.
+              Home Service an application maintains this website (<a
+                href="https://www.home-service.in"
+                >www.home-service.in</a
+              >) and mobile apps – Home Service on Google Android Playstore.
               (<a
                 href="https://play.google.com/store/apps/details?id=com.bedwal.bijak.mvp&hl=en"
                 >https://play.google.com/store/apps/details?id=com.bedwal.bijak.
@@ -53,7 +53,7 @@
             <p class="font-weight-regular mt-2 text-textSecondary">
               Transactions done under this platform are subject to the
               terms/policies that are mentioned in the Platform. By mere use of
-              the Platform, You shall be contracting with ANAAJ CULTURE and
+              the Platform, You shall be contracting with Home Service and
               these terms and conditions including the policies shall be binding
               on the User.
             </p>
@@ -159,7 +159,7 @@
 
             <p class="font-weight-regular mt-2 text-textSecondary">
               <strong>2.2</strong> Accordingly, the terms
-              <strong>“ANAAJ CULTURE”, “Platform”, “we”, “our”</strong> and
+              <strong>“Home Service”, “Platform”, “we”, “our”</strong> and
               <strong>“us”</strong> in these Terms and Conditions refer to the
               Company.
             </p>
@@ -210,7 +210,7 @@
               such transaction on the Platform may be made by your legal
               guardian or parents. Bijak reserves the right to terminate your
               membership and/or refuse to provide you with access to the
-              Platform if it is brought to ANAAJ CULTURE’s notice or if it is
+              Platform if it is brought to Home Service’s notice or if it is
               discovered that You are under the age of 18 years and transacting
               on the Platform.
             </p>
@@ -255,7 +255,7 @@
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              <strong>4.4.</strong> You agree that ANAAJ CULTURE shall not be
+              <strong>4.4.</strong> You agree that Home Service shall not be
               liable or responsible for the activities or consequences of the
               use or misuse of any information that occurs under your Account in
               cases, including, where You have failed to update Your revised
@@ -388,7 +388,7 @@
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              ANAAJ CULTURE reserves the right to modify this Privacy Policy at
+              Home Service reserves the right to modify this Privacy Policy at
               any time, so please review it frequently. Changes and
               clarifications will take effect immediately upon their posting on
               the Platform. If the Company makes any material changes to this
@@ -467,7 +467,7 @@
               (TRAI) Regulations, 2010 or such other applicable regulations
               including amendment thereof, as may be applicable from time to
               time.Users can stop this service, by writing an email to
-              anaaj.culture@gmail.com or calling customer support number
+              singhresham393@gmail.com or calling customer support number
               <a href="tel:+91-6396873155">+91-6396873155.</a>
             </p>
 
@@ -491,17 +491,17 @@
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              <strong>7.8.</strong> ANAAJ CULTURE is not responsible for any
+              <strong>7.8.</strong> Home Service is not responsible for any
               non-performance or breach of terms of any contract or transactions
-              entered into between Users. ANAAJ CULTURE cannot and does not
+              entered into between Users. Home Service cannot and does not
               guarantee that the concerned Users acting in the capacity of
               Buyers or Sellers will perform any transaction concluded on the
-              Platform. ANAAJ CULTURE shall not and is not required to mediate
+              Platform. Home Service shall not and is not required to mediate
               or resolve any dispute or disagreement between Buyers and Sellers.
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              <strong>7.9.</strong> ANAAJ CULTURE does not make any
+              <strong>7.9.</strong> Home Service does not make any
               representation or warranty as to the item-specifics (such as legal
               title, creditworthiness, identity, etc) of any of its Users. You
               are advised to independently verify the bona fides of any
@@ -510,7 +510,7 @@
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              <strong>7.10.</strong> You release and indemnify ANAAJ CULTURE
+              <strong>7.10.</strong> You release and indemnify Home Service
               and/or any of its officers and representatives from any cost,
               damage, liability or other consequence of any of the actions of
               the Users of the Platform and specifically waive any claims that
@@ -737,7 +737,7 @@
             <p class="font-weight-regular mt-2 text-textSecondary">
               <strong>13.1.</strong> Refund queries will be catered in case of
               frauds and disputes only. A user has to inform about any such
-              activity by dropping an email to anaaj.culture@gmail.com within 48
+              activity by dropping an email to singhresham393@gmail.com within 48
               hours of learning/ascertaining about the same. The Dedicated team
               will then contact the user within 48 hours to understand and
               analyse the incident. The refunds will be issued after complete
@@ -922,7 +922,7 @@
             <p class="font-weight-regular mt-2 text-textSecondary">
               <strong>Level 1:</strong> Users can reach us through the “Help via
               Call” feature on mob application or can write to us at
-              anaaj.culture@gmail.com.
+              singhresham393@gmail.com.
             </p>
 
             <p class="font-weight-regular mt-2 text-textSecondary">

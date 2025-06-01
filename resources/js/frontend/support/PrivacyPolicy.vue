@@ -10,7 +10,7 @@
             </div>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              This document explains how ANAAJ CULTURE collects, processes,
+              This document explains how Home Service collects, processes,
               stores, and/or shares any Personal Information (as defined below)
               and/or other information from or about the Users. WE VALUE OUR
               USERS’ PRIVACY AND SO WE HAVE PREPARED THIS PRIVACY POLICY
@@ -23,7 +23,7 @@
               INFORMATION ON THE PLATFORM. We may update this statement from
               time to time by publishing a revised version on the Platform per
               the Privacy Policy. Please check this Privacy Policy document each
-              time before you share Personal Information with us. ANAAJ CULTURE
+              time before you share Personal Information with us. Home Service
               may share the information (including your Personal Information)
               with our Affiliates, employees, directors, agents, contractors,
               business partners, and our successors or permitted assigns or any
@@ -57,7 +57,7 @@
 
               <p class="font-weight-regular mt-2 text-textSecondary">
                 THE PLATFORM WILL NOT BE AVAILABLE TO INDIVIDUALS OR ENTITIES
-                NOT REGISTERED WITH ANAAJ CULTURE. IF YOU ARE NOT REGISTERED,
+                NOT REGISTERED WITH Home Service. IF YOU ARE NOT REGISTERED,
                 YOU WILL NOT BE ABLE TO USE THE PLATFORM.
               </p>
 
@@ -70,7 +70,7 @@
                 notification system. We collect and store all of the comments,
                 communications, and chats you post, transmit or generate on the
                 Platform and/or through the Services. When you ask for
-                assistance from ANAAJ CULTURE for customer support, the contact
+                assistance from Home Service for customer support, the contact
                 information you provide will be collected, as well as the
                 information which you post while using the Platform and/or the
                 Services, such as, your user ID number, etc., and any
@@ -78,27 +78,27 @@
               </p>
 
               <p class="font-weight-regular mt-4 text-textSecondary">
-                <strong>3. Cookies: </strong> ANAAJ CULTURE
+                <strong>3. Cookies: </strong> Home Service
               </p>
               <p class="font-weight-regular mt-2 text-textSecondary">
                 may employ cookies to track your access to the Platform and/or
                 Services. These technologies operate either by placing a small
                 file that stores some information on your computer or mobile
                 device; and/or by accessing the information on your device.
-                ANAAJ CULTURE uses cookies and similar technologies to recognize
+                Home Service uses cookies and similar technologies to recognize
                 your device, for example by identifying your IP address, and to
                 collect data such as your device’s model, operating system and
                 screen size, other applications installed on your device, time
                 and date, and other information about how you use the Platform
-                and/or Services. ANAAJ CULTURE uses this information (a) to
-                store and access information; (b) to enable ANAAJ CULTURE to
+                and/or Services. Home Service uses this information (a) to
+                store and access information; (b) to enable Home Service to
                 provide you with more customized services, and (c) to collect
                 other information about your use of our Services.
               </p>
             </div>
 
             <h5 class="text-h5 mt-4">
-              2. ANAAJ CULTURE’S USE AND DISCLOSURE OF INFORMATION
+              2. Home Service’S USE AND DISCLOSURE OF INFORMATION
             </h5>
 
             <div class="article-sub-section">
@@ -106,7 +106,7 @@
                 <strong>1. Use of information</strong>
               </p>
               <p class="font-weight-regular mt-2 text-textSecondary">
-                You agree that ANAAJ CULTURE and/or service providers on ANAAJ
+                You agree that Home Service and/or service providers on ANAAJ
                 CULTURE’s behalf may use the information they collect, including
                 your Personal Information for:
               </p>
@@ -159,7 +159,7 @@
               <p class="font-weight-regular mt-2 text-textSecondary">
                 By using the Platform and/or the Services you make certain that
                 your Personal Information will be available to other Users. For
-                example, when a deal is closed on the Platform, ANAAJ CULTURE
+                example, when a deal is closed on the Platform, Home Service
                 provides the contact information of the execution profile or, in
                 case such profile is not available, the commercial profile, to
                 other Users. When you list your Product with your details on the
@@ -184,7 +184,7 @@
               </p>
 
               <p class="font-weight-regular mt-2 text-textSecondary">
-                If ANAAJ CULTURE’s control is acquired by a person(s) other than
+                If Home Service’s control is acquired by a person(s) other than
                 the present promoters, we may share Personal Information with
                 such person(s), but even they will have to store and use such
                 information in compliance with this Privacy Policy. We may also
@@ -200,9 +200,9 @@
             </h5>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              ANAAJ CULTURE takes all reasonable and sound steps to ensure that
+              Home Service takes all reasonable and sound steps to ensure that
               the information is protected against misuse, loss, unauthorized
-              access, modification, and/or disclosure. ANAAJ CULTURE adopts and
+              access, modification, and/or disclosure. Home Service adopts and
               applies appropriate data collection, storage, management
               practices, and security procedures to protect against unauthorized
               access, alteration, addition, deletion, disclosure, and/or
@@ -210,10 +210,10 @@
               username, email address, password, transaction information, and
               any other data stored on the Platform. However, no data storage or
               transmission over the Internet or other network can be guaranteed
-              to be 100% secure. Accordingly, ANAAJ CULTURE does not guarantee
+              to be 100% secure. Accordingly, Home Service does not guarantee
               that information will not be accessed, disclosed, altered, or
               destroyed by any breach of any of the abovementioned safeguards.
-              To the extent applicable, ANAAJ CULTURE complies with all
+              To the extent applicable, Home Service complies with all
               applicable data protection laws, and you (the User) are duly bound
               to provide all reasonable assistance and information to ANAAJ
               CULTURE about compliance with such laws.
@@ -450,7 +450,7 @@
             <h5 class="text-h5 mt-4">8. TERM</h5>
 
             <p class="font-weight-regular mt-2 text-textSecondary">
-              ANAAJ CULTURE may retain the information (including Personal
+              Home Service may retain the information (including Personal
               Information) for as long as is necessary to fulfill the purposes
               for which it was collected or as needed to provide, even after you
               have discontinued or deleted any account or have ended the
@@ -465,11 +465,11 @@
 
             <p class="font-weight-regular mt-2 text-textSecondary">
               Notwithstanding anything to the contrary in this Privacy Policy,
-              ANAAJ CULTURE may preserve or disclose your information: (a) to
+              Home Service may preserve or disclose your information: (a) to
               the extent reasonably necessary to comply with a law, regulation,
               or legal request; (b) to protect the safety of any person; (c) to
               address fraud, security or technical issues; or (d) to protect
-              ANAAJ CULTURE’s rights or property. However, nothing in this
+              Home Service’s rights or property. However, nothing in this
               Privacy Policy is intended to limit any legal defenses or
               objections that you may have to a third party, including a
               government’s request to disclose your information. If any court or
@@ -507,7 +507,7 @@
                 1. <strong>Level 1:</strong>
                 Users can reach us through the “Help via Call” feature on the
                 mobile application or can write to us at
-                anaaj.culture@gmail.com.
+                singhresham393@gmail.com.
               </p>
               <p class="font-weight-regular mt-2 text-textSecondary">
                 2. <strong>Level 2:</strong>

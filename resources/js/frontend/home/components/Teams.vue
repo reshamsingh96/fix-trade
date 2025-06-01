@@ -37,28 +37,28 @@ export default {
   },
   setup() {
     const teams = ref([
+      // {
+      //   image: "/images/",
+      //   title: "Founder",
+      // },
       {
-        image: "/images/Founder.png",
-        title: "Founder",
-      },
-      {
-        image: "/images/General Manager.png",
+        image: "/images/general-manager.jpg",
         title: "Director",
       },
+      // {
+      //   image: "/images/logo.jpg",
+      //   title: "Social Media Manager",
+      // },
+      // {
+      //   image: "/images/legal-manager.",
+      //   title: "Legal Manager",
+      // },
+      // {
+      //   image: "/images/associate-vice-president.",
+      //   title: "Associate Vice President(AVP)",
+      // },
       {
-        image: "/images/logo.png",
-        title: "Social Media Manager",
-      },
-      {
-        image: "/images/Legal Manager.png",
-        title: "Legal Manager",
-      },
-      {
-        image: "/images/associate_vice_president.jpeg",
-        title: "Associate Vice President(AVP)",
-      },
-      {
-        image: "/images/technical_support.jpg",
+        image: "/images/technical-support.jpg",
         title: "Technical Support",
       },
     ]);

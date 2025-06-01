@@ -4,7 +4,7 @@
     <v-main>
       <v-container class="fill-height align-center justify-center">
         <v-card class="auth-card" elevation="10">
-          <v-img class="mx-auto" max-width="100" src="/images/logo.png"></v-img>
+          <v-img class="mx-auto" max-width="100" src="/images/logo.jpg"></v-img>
 
           <div class="text-center mb-5 mt-3">
             <h3 class="text-h3">Welcome to Login</h3>
@@ -66,67 +66,63 @@
     <Footer />
   </v-app>
 </template>
-<script>
-import Cookies from "js-cookie";
-import axios from "axios";
-import Navbar from "../common/Navbar.vue";
-import Footer from "../common/Footer.vue";
+<script setup>
+import { ref } from 'vue'
+import Cookies from 'js-cookie'
+import axios from 'axios'
+import { useStore } from 'vuex'
+import { useRouter } from 'vue-router'
 
-export default {
-  components: {
-    Navbar,
-    Footer,
-  },
+import Navbar from '../common/Navbar.vue'
+import Footer from '../common/Footer.vue'
 
-  data: () => ({
-    visible: false,
-    loading_login: false,
-    user_name: "",
-    password: "",
-  }),
+// Refs for form fields and state
+const visible = ref(false)
+const loading_login = ref(false)
+const user_name = ref('')
+const password = ref('')
 
-  methods: {
-    loginUser() {
-      this.loading_login = true;
-      axios
-        .post("/api/login-user", {
-          user_name: this.user_name,
-          password: this.password,
-        })
-        .then((response) => {
-          const info = response.data.data;
-          const token = "Bearer " + info.access_token;
+// Vuex store and Router
+const store = useStore()
+const router = useRouter()
 
-          // Store token and user information
-          localStorage.setItem("access_token", token);
-          Cookies.set("access_token", token);
-          localStorage.setItem("user_login", JSON.stringify(info.user));
+// Login method
+const loginUser = async () => {
+  loading_login.value = true
 
-          // Set token as default Authorization header
-          axios.defaults.headers.common["Authorization"] = token;
+  try {
+    const response = await axios.post('/api/login-user', {
+      user_name: user_name.value,
+      password: password.value
+    })
 
-          // Dispatch permissions to Vuex store
-          let permissions = info.permissions;
-          this.$store.dispatch("login/setPermissions", permissions);
+    const info = response.data.data
+    const token = `Bearer ${info.access_token}`
 
-          // Redirect to dashboard
-          window.location.href = "/home";
-          this.loading_login = false;
-        })
-        .catch((error) => {
-          this.loading_login = false;
-          let message = error.response
-            ? error.response.data.message
-            : "Something went wrong!";
-          this.$store.dispatch("globalState/errorSnackBar", message);
-          if (
-            error.response &&
-            error.response.data.message === "CSRF token mismatch."
-          ) {
-            this.refresh_dialog = true;
-          }
-        });
-    },
-  },
-};
+    // Store token and user
+    localStorage.setItem('access_token', token)
+    Cookies.set('access_token', token)
+    localStorage.setItem('user_login', JSON.stringify(info.user))
+
+    // Set default auth header
+    axios.defaults.headers.common['Authorization'] = token
+
+    // Set permissions to Vuex
+    const permissions = info.permissions
+    store.dispatch('login/setPermissions', permissions)
+
+    // Redirect to dashboard
+    window.location.href = '/home'
+  } catch (error) {
+    const message = error.response?.data?.message || 'Something went wrong!'
+    store.dispatch('globalState/errorSnackBar', message)
+
+    if (message === 'CSRF token mismatch.') {
+      // Optional: implement refresh dialog handling
+      console.error('CSRF Token mismatch.')
+    }
+  } finally {
+    loading_login.value = false
+  }
+}
 </script>

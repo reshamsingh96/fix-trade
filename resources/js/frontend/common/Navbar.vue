@@ -5,9 +5,9 @@
         <v-col cols="8" sm="6" md="3">
           <div class="logo-container">
             <a href="/">
-              <img :src="'/images/logo.png'" alt="Logo" />
+              <img :src="'/images/logo.jpg'" alt="Logo" />
             </a>
-            <h3 class="text-h3">Anaaj Culture</h3>
+            <h3 class="text-h3">Home Service</h3>
           </div>
         </v-col>
 

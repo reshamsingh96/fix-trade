@@ -26,9 +26,9 @@ class productSeeder extends Seeder
 
     $create = [
       'user_id' => $id,
-      'store_url' => '/images/shiva_group.jpg',
+      'store_url' => null,
       'type' => 'Shop',
-      'store_name' => 'Shiva Agrotech',
+      'store_name' => 'Noor Store',
       'full_address' => '',
       'gst_number' => '',
       'status' => StatusConst::ACTIVE,

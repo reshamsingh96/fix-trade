@@ -15,11 +15,11 @@ class FaqSeeder extends Seeder
     {
         $faq = [
             [
-                'title' => 'What is Anaaj Culture?',
-                'description' => 'Anaaj Culture is an agricultural marketplace app that helps farmers and agricultural businesses buy or sell tools and goods across various categories like fertilizers, grains, machinery, animals, and labor services.'
+                'title' => 'What is Home Service?',
+                'description' => 'Home Service is an agricultural marketplace app that helps farmers and agricultural businesses buy or sell tools and goods across various categories like fertilizers, grains, machinery, animals, and labor services.'
             ],
             [
-                'title' => 'How do I get started with Anaaj Culture?',
+                'title' => 'How do I get started with Home Service?',
                 'description' => 'Download the app, sign up, and browse categories or use the search function to find what you need.'
             ],
             [
@@ -35,11 +35,11 @@ class FaqSeeder extends Seeder
                 'description' => 'Yes, bulk buying options are available for all grain types, depending on seller listings.'
             ],
             [
-                'title' => 'How do I sell grains on Anaaj Culture?',
+                'title' => 'How do I sell grains on Home Service?',
                 'description' => 'Simply register as a seller, upload details about your grains, set your price, and start selling.'
             ],
             [
-                'title' => 'What types of machinery can I find on Anaaj Culture?',
+                'title' => 'What types of machinery can I find on Home Service?',
                 'description' => 'You can find various agricultural machinery, including tractors, harvesters, plows, and seeders. Some machinery is also available for rent.'
             ],
             [
@@ -48,7 +48,7 @@ class FaqSeeder extends Seeder
             ],
             [
                 'title' => 'What animals can I buy or sell?',
-                'description' => 'Anaaj Culture lists a range of livestock, including cows, goats, poultry, and more, based on availability.'
+                'description' => 'Home Service lists a range of livestock, including cows, goats, poultry, and more, based on availability.'
             ],
             [
                 'title' => 'Are health checks included for animals?',

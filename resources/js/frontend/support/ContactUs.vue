@@ -78,10 +78,10 @@
                 </li>
 
                 <li>
-                  <a href="mailto:anaaj.culture@gmail.com" class="contact-link">
+                  <a href="mailto:singhresham393@gmail.com" class="contact-link">
                     <MailIcon size="20" stroke-width="1.8" />
 
-                    <span>anaaj.culture@gmail.com</span>
+                    <span>singhresham393@gmail.com</span>
                   </a>
                 </li>
               </ul>

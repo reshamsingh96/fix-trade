@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Constants\CommonConst;
 use App\Constants\RoleConst;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Validator;
@@ -41,28 +42,48 @@ class LoginController extends Controller
         if ($validator->fails()) {
             return $this->actionFailure($validator->errors()->first());
         }
+
         try {
-            $user = User::where('phone', $request->user_name)->orWhere('email', $request->user_name)->first();
-            if ($user && Hash::check($request->password, $user->password)) {
-                $data = [
-                    'email' => $user->email,
-                    'phone' => $user->phone,
-                    'password' => $request->password,
-                ];
-                auth()->attempt($data);
+            # Attempt to find the user by email, username, or phone, excluding inactive users
+            $user = User::where(function ($query) use ($request) {
+                $query->where('email', $request->user_name)->orWhere('user_name', $request->user_name)->orWhere('phone', $request->user_name);
+            })->where('status', '!=', CommonConst::IN_ACTIVE)->first();
 
-                $token = $user->createToken('tokens')->plainTextToken;
-                $response['access_token'] = $token;
-                $response['permissions'] = $user->getPermissionsViaRoles();
-                $response['user'] = $user;
-                $response['store'] = Store::where('user_id',$user->uuid)->get();
-
-                return $this->actionSuccess("Login Successfully", $response);
+            # Validate password and user existence
+            if (!$user) {
+                return $this->actionFailure('User not found or account is inactive.');
             }
+
+            if (!Hash::check($request->password, $user->password)) {
+                return $this->actionFailure('Incorrect password. Please try again.');
+            }
+
+            # Log in the user (not required for Sanctum token issuing, but optional)
+            $token = $user->createToken('API Token')->plainTextToken;
+
+            $credentials = ['email' => $user->email, 'user_name' => $user->user_name, 'password' => $request->password];
+
+            if ($request->remember_me) {
+                auth('web')->attempt($credentials, true);
+            } else {
+                auth('web')->attempt($credentials);
+            }
+
+            $info = adminAddLoginUserLog($user, $request);
+
+            $response = [
+                'access_token' => $token,
+                'permissions' => $user->getPermissionsViaRoles(),
+                'user' => $user->makeHidden('roles'),
+                'status' => true
+            ];
+
+            return $this->actionSuccess("Login Successfully", $response);
         } catch (\Exception $e) {
             createExceptionError($e, self::CONTROLLER_NAME, __FUNCTION__);
             return $this->actionFailure($e->getMessage());
         }
+ 
         return $this->actionFailure('email or Password incorrect!');
     }
 
@@ -86,7 +107,6 @@ class LoginController extends Controller
             'account_type' => 'required|in:Admin,User,Vendor,Labor',
             'state' => 'required',
             'city' => 'required',
-
             'pin_code' => 'required'
         ]);
 
@@ -131,6 +151,7 @@ class LoginController extends Controller
                 'image_public_id' => $image_public_id,
                 'phone_verified_at' => now(),
                 'email_verified_at' => now(),
+                "user_name"=>$request->user_name ?? $request->phone_code,
                 'password' => Hash::make($request->password),
             ];
 
@@ -169,14 +190,15 @@ class LoginController extends Controller
                 'full_address' => $request->full_address,
             ]);
 
-            $data = [
-                'email' => $user->email,
-                'phone' => $user->phone,
-                'password' => $request->password,
-            ];
-            auth()->attempt($data);
+            # Log in the user (not required for Sanctum token issuing, but optional)
+            $token = $user->createToken('API Token')->plainTextToken;
+            $credentials = ['email' => $user->email, 'phone' => $user->phone, 'user_name' => $user->user_name, 'password' => $request->password];
+            if ($request->remember_me) {
+                auth('web')->attempt($credentials, true);
+            } else {
+                auth('web')->attempt($credentials);
+            }
 
-            $token = $user->createToken('tokens')->plainTextToken;
             $response['access_token'] = $token;
             $response['permissions'] = $user->getPermissionsViaRoles();
             $response['user'] = $user;
