@@ -35,7 +35,9 @@ export default defineConfig({
     css: {
         preprocessorOptions: {
             scss: {
-                additionalData: `@import "@/scss/variables.scss";`, // Automatically include global variables
+                // additionalData: `@use "@/scss/variables.scss";`, // Automatically include global variables
+                additionalData: `@use "@/scss/variables.scss" as *;`, // ✅ Use `as *` to expose variables without namespace
+                includePaths: ['resources/scss']
             },
         },
     },

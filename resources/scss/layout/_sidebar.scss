@@ -1,3 +1,5 @@
+@use '../variables' as *;
+
 /*This is for the logo*/
 .leftSidebar {
     box-shadow: none !important;
@@ -18,7 +20,7 @@
 
 /*This is for the Vertical sidebar*/
 .scrollnavbar {
-    // height: calc(100vh - 190px); 
+    // height: calc(100vh - 190px);
 
     .userbottom {
         position: fixed;
@@ -166,7 +168,7 @@
     }
 }
 
-// scrollbar 
+// scrollbar
 .ps__rail-y {
     z-index: 9;
 }
